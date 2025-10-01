@@ -1,0 +1,53 @@
+Muro = 1.2 metri
+Piastrella = 25 cm
+
+Quante nere?
+Quante bianche?
+Spazio vuoto?
+
+N B N 
+3 piastrelle  = 75 cm
+spazio = 120 - 75 = 45 cm rimanendi
+cioè 45/2 = 22.5 cm per lato
+
+------ Algoritmo ? ---------
+Input:
+    MURO (larghezza del muro in cm)
+    PIASTRELLA (larghezza di una piastrella in cm)
+Output:
+    n_nere (numero piastrelle nere)
+    n_bianche (...)
+    vuoto (spazio vuoto da ciascuno dei lati, in cm) -> può essere 0.0
+
+Vincoli:
+    piastrelle di colori alternati
+    almeno 1 piastrella in totale
+
+x = MURO / PIASTRELLA 
+cerco il valore dispari più vicino per difetto ad x
+
+[[prendo parte intera di x e tolgo 1 => funziona solo nella metà dei casi]]
+
+prendo la parte intera di x , poi se è pari sottraggo 1
+(sottinteso: altrimenti se è dispari non faccio niente)
+
+
+prendo la parte intera di x , sottraggo 
+    (un'espressione che vale 1 se x è pari e 0 se x è dispari)
+    1 - (int(x) % 2)
+
+    
+    int(x) - (1 - (int(x) % 2))
+
+vuoto = muro - tutte le piastrelle
+
+
+================= Algoritmo alternativo ================
+
+coppie_bn = (MURO-PIASTRELLA) // (2*PIASTRELLA)
+--> n_bianche = coppie_bn
+n_nere = n_bianche+1
+
+120-25 = 95
+
+95/50

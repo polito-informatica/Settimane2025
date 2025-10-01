@@ -1,0 +1,9 @@
+
+     0. 1. 2. 3. 4
+  "  A  B. C. D  E. "
+    -5 -4 -3 -2 -1
+
+len() = 5
+indici vanno da 0 a len()-1
+oppure
+indici vanno da -1 a -len()
