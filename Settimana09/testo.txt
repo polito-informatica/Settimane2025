@@ -1,0 +1,5 @@
+Quando si apre un file
+in modalità di lettura
+il file deve esistere
+(ed essere accessibile all’utente)
+o si verificherà un’eccezione
