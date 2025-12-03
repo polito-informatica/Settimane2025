@@ -1,0 +1,11 @@
+timestamp,sensor_id,parameter,value
+2025-03-01 00:00:00,S1,temperature,21.5
+2025-03-01 00:10:00,S1,humidity,47.2
+2025-03-01 00:20:00,S1,temperature,XX
+2025-03-01 00:30:00,S2,temperature,19.8
+2025-03-01 00:40:00,S2,humidity,o.3
+2025-03-01 00:50:00,S2,temperature,
+2025-03-01 01:00:00,S1,humidity,46.0
+2025-03-01 01:10:00,S3,temperature,22.1
+2025-03-01 01:20:00,S3,humidity,50.0
+,S2,temperature,18.9
